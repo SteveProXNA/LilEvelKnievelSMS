@@ -139,10 +139,10 @@ screen/splash_screen.rel screen/start_screen.rel screen/test_screen.rel \
 screen/title_screen.rel
 
 ## Execute
-ihx2sms.exe output.ihx output.sms
+ihx2sms output.ihx output.sms
 
 ## Copy
-copy output.sms ..\TestBuild.sms
+##cp output.sms ../TestBuild.sms
 
 ## Delete
 cd  banks
